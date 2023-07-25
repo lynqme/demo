@@ -1,0 +1,113 @@
+h1, h2, p, li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li {
+    font-size: 20px;
+    font-weight: 10;
+}
+p {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    
+} 
+h1  {
+    text-align: center;
+    font-weight: 150;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+a {
+    text-decoration: none;
+}
+  
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    background: #081e3f;
+    color: white;
+
+}
+.wrapper{ 
+    width: 100%;
+    position:relative;
+    flex-direction:row;
+}
+.logo {
+    display: flex;
+}
+#logo {
+    max-width: 5%;
+    position: absolute;
+    left: 0;
+} 
+.avatar {
+
+    display: flex;
+
+}
+#avatar {
+    padding: 10px;
+    max-width: 3%;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 5%;
+
+}
+.schedule {
+    width: 100%;
+}
+.schedulerow li:hover {
+    background-color: gold;
+    color:#081e3f;
+}
+.history{
+    width: 100%;
+
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 3px;
+    width: 100%;
+    border: solid 1px #081e3f;
+    background-color: #081e3f;
+    color: white;
+    border-radius: 15px;
+}
+.checkin {
+    width: fit-content;
+    border: solid 1px #081e3f;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #081e3f;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.checkin h2:hover {
+    color: white;
+}
+.checkedin {
+    border: solid #081e3f 2px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #081e3f;
+    color: white;
+    border-radius: 15px;
+}
